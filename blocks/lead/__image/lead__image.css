@@ -2,7 +2,6 @@
     width: 984px;
     width: 100%;
     object-fit: contain;
-    display: block;
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,7 +9,6 @@
         width: 928px;
         width: 100%;
         object-fit: contain;
-        display: block;
         }
 }
 
@@ -19,7 +17,6 @@
         width: 768px;
         width: 100%;
         object-fit: contain;
-        display: block;
         }
 }
 
@@ -28,6 +25,5 @@
         width: 320px;
         width: 100%;
         object-fit: contain;
-        display: block;
         }
 }
