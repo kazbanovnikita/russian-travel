@@ -1,0 +1,29 @@
+.place{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    gap: 48px 40px;
+    margin: 0 auto 80px;
+    max-width: 984px;
+    width: 100%;
+}
+
+    .place:last-child{
+        margin-bottom: 0;
+    }
+
+
+
+@media screen and (max-width: 1024px) {
+    .place{
+       gap: 48px 32px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place{
+       gap: 48px 28px;
+       max-width: 720px;   
+    }
+}
