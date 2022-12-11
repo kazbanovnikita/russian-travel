@@ -8,15 +8,13 @@
     text-transform: uppercase;
     text-align: left;
     margin: 8px 0 0;
-    width: 158px;
-    height: 14px;
+    max-width: 158px;
     align-self: flex-start;
  }
 
  @media screen and (max-width: 768px) {
     .lead__caption{
     font-size: 10px;
-    line-height: 14px; 
     padding-left: 24px;
     }
 }
@@ -24,7 +22,6 @@
  @media screen and (max-width: 320px) {
     .lead__caption{
     font-size: 10px;
-    line-height: 14px; 
     padding-left: 16px;
     }
 }

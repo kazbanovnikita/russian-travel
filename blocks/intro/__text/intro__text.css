@@ -1,6 +1,6 @@
 .intro__text{
     display: block;
-    width: 690px;
+    max-width: 690px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
