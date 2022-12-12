@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: center;
-    gap: 48px 40px;
+    gap: 48px 20px;
     margin: 0 auto 80px;
     max-width: 984px;
     width: 100%;
@@ -16,14 +16,15 @@
 
 @media screen and (max-width: 1024px) {
     .place{
-       gap: 48px 32px;
-        max-width: 928px;
+       gap: 47px 21px;
+       max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place{
-       gap: 48px 28px;
-       max-width: 720px;   
+       gap: 46px 25px;
+       max-width: 720px;
+       margin-bottom: 62px;   
     }
 }

@@ -15,6 +15,12 @@
     transition: .3s linear .3s;
   }
 
+  @media screen and (max-width: 665px) {
+    .place__link{
+        margin-left: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__link{
         margin: 0 16px;
