@@ -1,30 +1,28 @@
-.place__link{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration: underline;
-    color:#FFFFFF;
-    margin: 16px 0 0;
-    opacity: 1;
+.place__link {
+  font-family: "Inter", "Arial", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  color: #ffffff;
+  margin: 16px 0 0;
+  opacity: 1;
 }
 
 .place__link:hover {
-    opacity: .8;
-    transition: .3s linear .3s;
-  }
+  opacity: 0.8;
+  transition: 0.3s linear 0.3s;
+}
 
-  @media screen and (max-width: 665px) {
-    .place__link{
-        margin-left: 16px;
-    }
+@media screen and (max-width: 665px) {
+  .place__link {
+    margin-left: 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .place__link{
-        margin: 0 16px;
-    }
+  .place__link {
+    margin: 0 16px;
+  }
 }
-
-

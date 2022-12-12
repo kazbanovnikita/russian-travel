@@ -1,20 +1,20 @@
-.footer__copyright{
-    max-width: 186px;
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    max-height: 16px;
-    align-self: end;
+.footer__copyright {
+  max-width: 186px;
+  margin: 0;
+  font-family: "Inter", "Arial", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  max-height: 16px;
+  align-self: end;
 }
 @media screen and (max-width: 650px) {
-    .footer__copyright{
-        align-self: flex-start;
-        margin-top: 48px;
-        margin-left: 16px;
-        line-height: 14px;
-    }
+  .footer__copyright {
+    align-self: flex-start;
+    margin-top: 48px;
+    margin-left: 16px;
+    line-height: 14px;
+  }
 }
