@@ -12,4 +12,4 @@ ___
 _Сделать код кроссбраузерным с помощью дописания вендерных прификсов_ 
 
 ## GitHub Pages
-https://kazbanovnikita.github.io/russian-travel/https://kazbanovnikita.github.io/russian-travel/
+https://kazbanovnikita.github.io/russian-travel/
